@@ -7,7 +7,7 @@ var intlTelInput = {
   // then stripped down by copying the JSON into Chrome dev tools and manipulating it
   // and then using JSON.stringify to print it out as a string again and copy it here.
   // Also commented some countries which we dont yet have flags for.
-  countries: [{
+  countries: [
       "name": "Afghanistan",
       "cca2": "AF",
       "calling-code": "93"
@@ -810,7 +810,7 @@ var intlTelInput = {
       "cca2": "SY",
       "calling-code": "963"
     }, {
-      "name": "Taiwan, Province of China",
+      "name": "Taiwan",
       "cca2": "TW",
       "calling-code": "886"
     }, {
